@@ -10,7 +10,7 @@
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
 ![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
-Aplicação Tindev usando React Native, Axios, React Navigation, React Native Async Storage e react-native-reanimated consumindo os recursos da API do [Node - Tindev](https://github.com/osvaldokalvaitir/node-tindev).
+Aplicação Tindev usando React Native, Axios, React Navigation, React Native Async Storage, Socket.io e react-native-reanimated consumindo os recursos da API do [Node - Tindev](https://github.com/osvaldokalvaitir/node-tindev).
 
 ## Índice
 
@@ -19,6 +19,8 @@ Aplicação Tindev usando React Native, Axios, React Navigation, React Native As
   - [Login](#login)
 
   - [Principal](#principal)
+
+  - [Match](#match)
 
 - [Desenvolvimento](#desenvolvimento)
 
@@ -45,6 +47,11 @@ Esta é a primeira tela, para entrar o usuário terá que digitar o seu usuário
 
 ![Main](/assets/main.png)
 É a tela onde estão todos os devs vindos da API, podendo dar like e dislike nos devs existentes.
+
+### Match
+
+![Match](/assets/match.png)
+Aparecerá a tela 'It's a match', quando tiver um encontro de likes entre dois devs.
 
 ## Desenvolvimento
 
@@ -75,6 +82,8 @@ Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/
 - [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
 
 - [react-native-reanimated](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-reanimated.md)
+
+- [socket.io-client](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/socketio-client.md)
 
 ### APIs
 
