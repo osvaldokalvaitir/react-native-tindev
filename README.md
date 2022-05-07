@@ -1,99 +1,66 @@
-# React Native - Tindev
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="300px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/react-native-tindev/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/react-native-tindev.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/react-native-tindev.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-tindev.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-tindev.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/react-native-tindev.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/react-native-tindev.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
+<h3 align="center">
+  React Native - Tindev
+</h3>
 
-Aplicação Tindev usando React Native, Axios, React Navigation, React Native Async Storage, Socket.io e react-native-reanimated consumindo os recursos da API do [Node.js - Tindev](https://github.com/osvaldokalvaitir/nodejs-tindev).
+<p align="center">
+  :man_technologist: Tindev Application using React Native, Axios, React Navigation, React Native Async Storage, Socket.io, react-native-reanimated and consuming the features of the Node.js - Tindev API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/react-native-tindev.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/react-native-tindev.svg?color=00A83A">
 
-  - [Login](#login)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Principal](#principal)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Match](#match)
+<p align="center">
+  <a href="#iphone-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-- [Desenvolvimento](#desenvolvimento)
+## :iphone: Demo
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+![Demo](/.github/assets/demo.gif)
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+## :wrench: Install and run
 
-  - [Execução do Projeto](#execução-do-projeto)
+_ps: Before running the app, start the [Node.js - Tindev](https://github.com/osvaldokalvaitir/nodejs-tindev) backend._
 
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/react-native-tindev
 
-  - [APIs](#apis)
+# Entry in folder
+cd react-native-tindev
 
-## Capturas de Tela
+# Install deps with npm or yarn
+npm install | yarn
 
-### Login
+# Launch the app on android with react-native or yarn
+react-native run-android | yarn android
 
-![Login](/.github/assets/login.png)
-Esta é a primeira tela, para entrar o usuário terá que digitar o seu usuário do GitHub e clicar em 'Entrar'.
+# Launch the app on ios with react-native or yarn
+react-native run-ios | yarn ios
+```
 
-### Principal
+## :memo: License
 
-![Main](/.github/assets/main.png)
-É a tela onde estão todos os devs vindos da API, podendo dar like e dislike nos devs existentes.
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-### Match
+---
 
-![Match](/.github/assets/match.png)
-Aparecerá a tela 'It's a match', quando tiver um encontro de likes entre dois devs.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md) e siga `Execução de Projeto para Desenvolvimento`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [React Native Async Storage](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@react-native-community-async-storage.md)
-
-- [React Native Gesture Handler](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-gesture-handler.md)
-
-- [React Navigation](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-navigation.md)
-
-- [react-native-cli](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-cli.md)
-
-- [react-native-reanimated](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-native-reanimated.md)
-
-- [socket.io-client](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/socketio-client.md)
-
-### APIs
-
-- **[Node.js - Tindev](https://github.com/osvaldokalvaitir/nodejs-tindev)**
-
-  - **Rotas**
-
-    - Devs
-
-      - Adiciona novos devs
-      - Lista todos os devs que não seja ele mesmo, não esteja nos likes e nos dislikes
-      - Likes nos devs
-      - Dislikes nos devs
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
